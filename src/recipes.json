@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "One",
+        "time": "6",
+        "servings": 6,
+        "calories": 210,
+        "image": "https://etnoxata.com.ua/image/cache/catalog/image/cache/adaptive/catalog/stat/s1/0-650x340.webp",
+        "difficulty": "easy"
+    },
+    {
+        "id": 2,
+        "name": "Two",
+        "time": "2",
+        "servings": 2,
+        "calories": 210,
+        "image": "https://etnoxata.com.ua/image/cache/catalog/image/catalog/stat/s1/b4.webp",
+        "difficulty": "medium"
+    },
+    {
+        "id": 3,
+        "name": "Three",
+        "time": "8",
+        "servings": 9,
+        "calories": 210,
+        "image": "https://etnoxata.com.ua/image/cache/catalog/image/cache/adaptive/catalog/blog/9_04_2021/gf-650x340.webp",
+        "difficulty": "medium"
+    },
+    {
+        "id": 4,
+        "name": "Four",
+        "time": "1",
+        "servings": 2,
+        "calories": 300,
+        "image": "https://etnoxata.com.ua/image/cache/catalog/image/cache/adaptive/catalog/blog/03_02_2021/gf-650x340.webp",
+        "difficulty": "easy"
+    }
+]
