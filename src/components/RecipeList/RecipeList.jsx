@@ -1,12 +1,15 @@
 import PropTypes from 'prop-types'
-import { Recipe } from './Recipe'
+import { Recipe } from '../Recipe'
+import { List } from './RecipeList.styled'
 
 export const RecipeList = ({ recipes }) => {
-    return <div style={{display:"flex", gap:16}}>
+    return (
+        <List >
         {recipes.map(recipe => (
             <Recipe key={recipe.id} recipe={recipe} />
-        ))};
-        </div>
+        ))}
+        </List>
+    );
 }
 
 // props описуємо лише id ттому що сюди приходить лише це!!!
