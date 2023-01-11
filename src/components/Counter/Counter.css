@@ -1,0 +1,29 @@
+.Counter {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+.Counter__controls > button {
+  border: none;
+  padding: 10px 15px;
+  background-color: treal;
+  color: rgb(36, 34, 34);
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 3px 0 green;
+  transition: box-shadow 250ms liner;
+  width: 100px;
+}
+.Counter__controls > button.active {
+  box-shadow: 2px 5px 2px 0 blueviolet;
+}
+.Counter__value {
+  margin-right: 15px;
+  margin-right: 15px;
+  font-size: 64px;
+}
