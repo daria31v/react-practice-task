@@ -1,0 +1,28 @@
+.Dropdown {
+  position: relative;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+.Dropdown__toggle {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
