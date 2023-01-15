@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Sticker } from './Sticker';
+import { Sticker } from './stickers.json';
 import { List } from './StickerList.styled';
 // import stickers from '../../stickers.json'
 
