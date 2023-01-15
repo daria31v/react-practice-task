@@ -51,6 +51,7 @@ export class App extends Component {
           <p>Done todos: {completedTodos} </p>
         </div>
         <TodoList todos={todos} onDeleteTodo={this.deleteTodo} />
+        
       </>
     );
   }
