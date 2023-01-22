@@ -30,9 +30,23 @@
 // );
 
 // 4 task
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import { App } from 'components/4 task API fetch/App';
+
+// 5 task
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/4 task API fetch/App';
+import { App } from 'components/5 task modal/App';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
