@@ -41,24 +41,19 @@ export class App extends Component {
 
     return (
       <>
-        <RecipeList recipes={recipes} />
+        {/* <RecipeList recipes={recipes} />
         <h1>State components</h1>
         <Counter initialValue={10} />
-        <Dropdown />
+        <Dropdown /> */}
         <ColorPicker options={colorPickerOptions} />
-        <div>
+        {/* <div>
           <p>All todos: {totalTodoCount}</p>
           <p>Done todos: {completedTodos} </p>
         </div>
         <TodoList todos={todos} onDeleteTodo={this.deleteTodo} />
-        
+         */}
       </>
     );
   }
 }
 
-// export const App = () => {
-//   return (
-
-//   );
-// };
