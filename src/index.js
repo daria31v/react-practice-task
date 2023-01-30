@@ -4,7 +4,7 @@
 // // import { App } from 'components/2 task/App';
 // // 1 task
 //  import {App} from 'components/StickerList/App'
-import {App} from 'components/App'
+// import {App} from 'components/App'
 // //3 task
 // import { App } from './components/3 task - stickerFormAdd/App';
 // import './index.css';
@@ -44,7 +44,7 @@ import {App} from 'components/App'
 // 6 task
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import { App } from 'components/6 task huki/App';
+import { App } from 'components/6 task huki/App';
 import './index.css';
 
 

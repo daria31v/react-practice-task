@@ -1,19 +1,20 @@
-import { RecipeList } from "./RecipeList/RecipeList";
-import recipes from '../recipes.json';
+// import { RecipeList } from "./RecipeList/RecipeList";
+// import recipes from '../recipes.json';
 import { Component } from 'react';
-import { ColorPicker } from './ColorPicker/ColorPicker';
-import {Counter} from './Counter/Counter'
-import { Dropdown } from './Dropdown/Dropdown';
-import { TodoList } from './TodoList/TodoList';
+// import { ColorPicker } from './ColorPicker/ColorPicker';
+// import { Counter } from './Counter/Counter';
+import { CounterHuki} from './Counter/Counter-huki';
+// import { Dropdown } from './Dropdown/Dropdown';
+// import { TodoList } from './TodoList/TodoList';
 
-const colorPickerOptions = [
-  { label: 'red', color: '#F44336' },
-  { label: 'green', color: '#4CAF50' },
-  { label: 'blue', color: '#2196F3' },
-  { label: 'grey', color: '#607D8B' },
-  { label: 'pink', color: '#E91E63' },
-  { label: 'indigo', color: '#3F51B5' },
-]
+// const colorPickerOptions = [
+//   { label: 'red', color: '#F44336' },
+//   { label: 'green', color: '#4CAF50' },
+//   { label: 'blue', color: '#2196F3' },
+//   { label: 'grey', color: '#607D8B' },
+//   { label: 'pink', color: '#E91E63' },
+//   { label: 'indigo', color: '#3F51B5' },
+// ]
 
 export class App extends Component {
   state = {
@@ -32,20 +33,21 @@ export class App extends Component {
   };
 
   render() {
-    const { todos } = this.state;
-    const totalTodoCount = todos.length;
-    const completedTodos = todos.reduce(
-      (total, todo) => (todo.completed ? total + 1 : total),
-      0
-    );
+    // const { todos } = this.state;
+    // const totalTodoCount = todos.length;
+    // const completedTodos = todos.reduce(
+    //   (total, todo) => (todo.completed ? total + 1 : total),
+    //   0
+    // );
 
     return (
       <>
         {/* <RecipeList recipes={recipes} />
-        <h1>State components</h1>
-        <Counter initialValue={10} />
-        <Dropdown /> */}
-        <ColorPicker options={colorPickerOptions} />
+        <h1>State components</h1> */}
+        {/* <Counter initialValue={10} /> */}
+        <CounterHuki initialValue={10}/>
+        {/* <Dropdown /> */}
+        {/* <ColorPicker options={colorPickerOptions} /> */}
         {/* <div>
           <p>All todos: {totalTodoCount}</p>
           <p>Done todos: {completedTodos} </p>
