@@ -44,7 +44,7 @@
 // 6 task
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/6 task huki/App';
+import { App } from 'components/6 task hooks/App';
 import './index.css';
 
 
